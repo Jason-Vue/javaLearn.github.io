@@ -1,0 +1,288 @@
+#body{
+    background-color: #f5f5f5;
+    font: 12px "微软雅黑",Verdana,SimHei,"Microsoft JhengHei",Tahoma;
+    color: #666;
+    position: relative;
+    overflow-x: hidden;
+}
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form{
+    margin: 0;
+}
+ul,ol{
+    margin:0;
+    padding:0;
+}
+ul li{
+    list-style-type: none;
+}
+ol li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #666;
+    /*outline: none;*/
+}
+a:hover{
+    color:red;
+}
+.header{
+    background-color: #fff;
+    /*border-bottom: 1px solid #363636;*/
+    width:100%;
+    height:200px;
+    border:1px solid red;
+}
+.topcontainer{
+    width:1240px;
+    height:36px;
+    border:1px solid red;
+    margin:0 auto;
+    background: #e3e4e5;
+    /*position:relative;*/
+}
+.topcontainer_left{
+    width:240px;
+    height:34px;
+    border:1px solid red;
+    float:left;
+}
+.topcontainer_left ul li{
+    float:left;
+    margin-left: 10px;
+    line-height:34px;
+}
+.topitem a{
+    color: #999;
+}
+.topitem a:hover{
+    color:red;
+}
+.topcontainer_right{
+    width:340px;
+    height:34px;
+    border:1px solid red;
+    float:right;
+}
+.topcontainer_right ul li{
+    float:left;
+    margin-left: 33px;
+    line-height:34px;
+}
+#telshop{
+    margin-left:40px;
+    position:relative;
+}
+/*#telshop i{
+    !*height: 18px;*!
+    !*background:url(./img/head-icons1.png) no-repeat;*!
+    width: 22px;
+    height: 15px;
+    border:1px solid red;
+    background: url(../img/head-icons.png) no-repeat -2px -268px;
+}*/
+.mallup{
+    float: left;
+
+}
+#telshop :hover .malldown{
+    display: block;
+}
+.mallup div{
+    margin-top: 3px;
+    margin-left: 30px;
+    border:6px solid red;
+    height:0px;
+    width:0px;
+    border-top:6px solid white;
+    border-left:6px solid white;
+    border-right:6px solid white;
+}
+
+.mallup img{
+    margin-left: 8px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid red;
+}
+.malldown{
+    width: 170px;
+    height: 70px;
+    border:1px solid red;
+    margin-left: -10px;
+    /*float: left;*/
+    position:absolute;
+    top:48px;
+    right:0px;
+    z-index: 3;
+    background-color: white;
+    display: none;
+}
+.malldown img{
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 10px;
+    float: left;
+}
+.malldown h4{
+    float: left;
+}
+.malldown p{
+    float: left;
+}
+.topcontent{
+    width:1240px;
+    height:118px;
+    border:1px solid red;
+    margin:0 auto;
+}
+.header-logo{
+    height:118px;
+    width:150px;
+    border:1px solid red;
+    line-height:118px;
+    vertical-align:middle;
+    overflow: hidden;
+    float:left;
+}
+.header-logo img{
+    margin-top: 40px;
+    width:150px;
+    height:40px;
+}
+.header-tools{
+    height:76px;
+    width:740px;
+    border:1px solid red;
+    margin-right: 110px;
+    float: right;
+    padding-top: 30px;
+}
+.search{
+    width:536px;
+    height:46px;
+    border:1px solid green;
+    float:left;
+}
+.shopcart{
+    width:158px;
+    height:46px;
+    border:1px solid green;
+    float:right;
+}
+.cart{
+    position:relative;
+}
+.hidden-cart{
+    display: none;
+    position: absolute;
+    top: 56px;
+    right:0px;
+    z-index: 5;
+}
+.cart:hover .hidden-cart{
+    display:block;
+}
+.searchkey{
+    width:536px;
+    height:36px;
+    border:1px solid red;
+    clear: both;
+}
+.searchkey a{
+    line-height: 36px;
+    margin-left: 15px;
+}
+.navbox{
+    width:1240px;
+    height:38px;
+    border:1px solid red;
+    clear: both;
+}
+.navbox-container{
+    margin: 0 auto;
+    height:38px;
+    width:1240px;
+    position: relative;
+}
+.navbox-container-kaimenhong{
+    position: absolute;
+    right: 15px;
+    bottom: 5px;
+}
+.navbar{
+    width:900px;
+    height:38px;
+    border:1px solid black;
+    position: relative;
+}
+.topfirst{
+    width: 210px;
+    margin-right: 26px;
+    background-color: #363636;
+    float: left;
+    padding: 0 12px;
+    line-height: 37px;
+    text-align: left;
+    font-size: 14px;
+}
+.topfirst img{
+    float:left;
+    height:26px;
+    width:28px;
+    margin-top:5px;
+    margin-left: 18px;
+}
+.topfirst p{
+    float:left;
+    /*margin-top:5px;*/
+    margin-left: 15px;
+}
+/* banner选项卡开始*/
+
+.navitem{
+    float: left;
+    padding: 0 12px;
+    line-height: 37px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.navlist{
+    width:1240px;
+    height:260px;
+    border:1px solid #ccc;
+    position:absolute;
+    margin-left:0px;
+    top:37px;
+    left:0px;
+    z-index:12;
+    background: rgba(255,255,255,0.8);
+    color:black;
+    display:none;
+}
+.navlist dl dd{
+    float: left;
+    z-index: 5;
+    margin-left: ;
+    padding: 0 40px;
+    border-left:1px solid black;
+    margin-top: 40px;
+    font-size: 12px;
+    text-align: center;
+
+}
+.navlist dl dd p{
+    color:red;
+    font-size: 16px;
+}
+.navlist dl dd img{
+    width:120px;
+    height:120px;
+
+}
+.xxphone{
+    display: block;
+}
+/* banner选项卡结束*/

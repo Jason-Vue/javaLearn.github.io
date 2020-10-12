@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>360商城</title>
+    <link href="./css/index.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="./lib/css/bootstrap.min.css">
+</head>
+<body id="body">
+      <!--360商城头部广告开始-->
+      <div class="premallx"><img src="./img/pre360.jpg" ></div>
+      <div class="premally"><img src="./img/pre3602.jpg" ></div>
+      <!--360商城头部广告结束-->
+     <!--右边回到顶部和图片显示开始-->
+     <div class="right-floating">
+             <ul>
+                 <li class="right-floating-li wechatzzz">
+                     <div class=""><img src="./img/wechatright.png"></div>
+                     <div class="mall-same wechatup"><img src="./img/360mallxx.jpg"></div>
+                 </li>
+                 <li class="right-floating-li phonezzz">
+                     <div class=""><img src="./img/phoneright.png"></div>
+                     <div class="mall-same mallyydown "><img src="./img/360wechatxx.jpg"></div>
+                 </li>
+
+                 <li class="right-floating-li backtopxx" onclick="totop()">
+                     <div><img src="./img/totop.png"></div>
+                 </li>
+             </ul>
+     </div>
+
+     <!--右边回到顶部和图片显示结束-->
+     <!--左边楼层跳跃开始-->
+     <div class="floating-left" id="tbox">
+         <ul>
+             <li><a href="#index_1">明星单品</a></li>
+             <li><a href="#index_2">手机</a></li>
+             <li><a href="#index_3">数码</a></li>
+             <li><a href="#index_4">单品</a></li>
+             <li><a href="#index_5">家电</a></li>
+             <li><a href="#index_6">运动</a></li>
+             <li><a href="#index_7">电脑</a></li>
+             <li><a href="#index_8">推荐</a></li>
+             <li id="gotop">△</li>
+         </ul>
+     </div>
+     <!--左边固定跳楼结束-->
+    <!--头部开始-->
+    <div class="header">
+                <div class="topcontainer">
+                    <div class="topcontainer_left">
+                        <ul>
+                            <li class="topitem"><a href="">帮助中心</a></li>
+                            <li class="topitem"><a href="">收藏本站</a></li>
+                        </ul>
+                    </div>
+                    <div class="topcontainer_right">
+                        <ul>
+                            <li><a href="">登录</a></li>
+                            <li><a href="">注册</a></li>
+                            <li><a href="">我的订单</a></li>
+                            <li id="telshop">
+                                <dl>
+                                    <dd class="mallup"><a href=""><p>手机360商城</p><div></div><img src="./img/qrcode.jpg"></a></dd>
+                                    <dd class="malldown">
+                                        <div><img src="./img/qrcode.jpg"><h4>360手机商城</h4><p>扫码下载</p></div>
+                                    </dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="topcontent">
+                    <!--logo start--->
+                    <div class="header-logo">
+                        <a href=""><img src="./img/logo01.png" alt=""></a>
+                    </div>
+                    <!--logo end-->
+                    <!--右边搜索框和购物车开始-->
+                    <div class="header-tools">
+                                <!--搜索框开始-->
+                                <div class="search">
+                                       <img src="./img/654321.png" height="48" style="left:0px;float:right;">
+                                </div>
+                                <!--搜索框开始-->
+                                <!--购物车框开始-->
+                                <div class="shopcart">
+                                    <ol class="cart">
+                                        <li class="block-cart"><a href=""><img src="./img/cart.png" ></a></li>
+                                        <li class="hidden-cart"><a href=""><img src="./img/cart-down.png" ></a></li>
+                                    </ol>
+                                </div>
+                                <!--购物车框结束-->
+                                <!--搜索框下面框开始-->
+                                <div class="searchkey">
+                                    <a href="" style="margin-left:0px;">N6 lite</a>
+                                    <a href="">6W</a>
+                                    <a href="">N5S</a>
+                                    <a href="">摄像机云台版</a>
+                                    <a href="">插线板快充</a>
+                                </div>
+                                <!--搜索框下面框结束-->
+                    </div>
+                    <!--右边搜索框和购物车结束->
+
+
+                 <!--导航开始-->
+                <div class="navbox">
+                      <div class="navbox-container">
+                          <!--导航右边开门红广告开始-->
+                            <div class="navbox-container-kaimenhong">
+                                <a href=""><img src="./img/kaimenhong.gif" alt=""></a>
+                            </div>
+                            <div style="clear: both"></div>
+                          <!--导航右边开门红广告结束-->
+                          <!--导航底部开始-->
+                          <ul class="navbar">
+                              <div class=" topfirst"><a><img src="./img/3line.png" ><p>全部智能酷品</p></a></div>
+                              <li class="navitem">
+                                  <a><p>手机</p></a>
+                                  <div class="navlist">
+                                      <dl>
+                                          <dd><a href=""><img src="./img/360pro1.jpg"/><br/><span>360手机 N6 Pro</span><p>1899.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/360pro2.jpg"/><br/><span>N6 Lite璀璨金色</span><p>799.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/360pro3.jpg"/><br/><span>360手机 N5S 全网通 6GB</span><p>1499.00</p></a></dd>
+                                          <dd><a href=""><img src="./img/360pro4.jpg"/><br/><span>N6  璀璨金色  </span><p>1599.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/360pro5.jpg"/><br/><span>360手机 C5移动版</span><p>419.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/360pro6.jpg"/><br/><span>F4S 流光金 3GB 32GB</span><p>749.00</p> </a></dd>
+                                      </dl>
+                                  </div>
+                              </li>
+                              <li class="navitem ">
+                                  <a><p>行车记录仪</p></a>
+                                  <div class="navlist">
+                                      <dl>
+                                          <dd><a href=""><img src="./img/star006.jpg"/><br/><span>360手机 N6 Pro</span><p>1899.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/star007.jpg"/><br/><span>N6 Lite璀璨金色</span><p>799.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/star008.jpg"/><br/><span>360手机 N5S 全网通 6GB</span><p>1499.00</p></a></dd>
+                                          <dd><a href=""><img src="./img/star009.jpg"/><br/><span>N6  璀璨金色  </span><p>1599.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/star010.jpg"/><br/><span>360手机 C5移动版</span><p>419.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/star011.jpg"/><br/><span>F4S 流光金 3GB 32GB</span><p>749.00</p> </a></dd>
+                                      </dl>
+                                  </div>
+                              </li>
+                              <li class="navitem">
+                                  <a><p>儿童手表</p></a>
+                                  <div class="navlist">
+                                      <dl>
+                                          <dd><a href=""><img src="./img/360pro1.jpg"/><br/><span>360手机 N6 Pro</span><p>1899.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/360pro2.jpg"/><br/><span>N6 Lite璀璨金色</span><p>799.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/360pro3.jpg"/><br/><span>360手机 N5S 全网通 6GB</span><p>1499.00</p></a></dd>
+                                          <dd><a href=""><img src="./img/360pro4.jpg"/><br/><span>N6  璀璨金色  </span><p>1599.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/360pro5.jpg"/><br/><span>360手机 C5移动版</span><p>419.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/360pro6.jpg"/><br/><span>F4S 流光金 3GB 32GB</span><p>749.00</p> </a></dd>
+                                      </dl>
+                                  </div>
+                              </li>
+                              <li class="navitem">
+                                  <a><p>摄像机</p></a>
+                                  <div class="navlist">
+                                      <dl>
+                                          <dd><a href=""><img src="./img/phone1001.jpg"/><br/><span>360手机 N6 Pro</span><p>1899.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/phone1002.jpg"/><br/><span>N6 Lite璀璨金色</span><p>799.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/phone1003.jpg"/><br/><span>360手机 N5S 全网通 6GB</span><p>1499.00</p></a></dd>
+                                          <dd><a href=""><img src="./img/phone1004.jpg"/><br/><span>N6  璀璨金色  </span><p>1599.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/phone1005.jpg"/><br/><span>360手机 C5移动版</span><p>419.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/phone1006.jpg"/><br/><span>F4S 流光金 3GB 32GB</span><p>749.00</p> </a></dd>
+                                      </dl>
+                                  </div>
+                              </li>
+                              <li class="navitem">
+                                  <a><p>路由器</p></a>
+                                  <div class="navlist">
+                                      <dl>
+                                          <dd><a href=""><img src="./img/360pro1.jpg"/><br/><span>360手机 N6 Pro</span><p>1899.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/360pro2.jpg"/><br/><span>N6 Lite璀璨金色</span><p>799.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/360pro3.jpg"/><br/><span>360手机 N5S 全网通 6GB</span><p>1499.00</p></a></dd>
+                                          <dd><a href=""><img src="./img/360pro4.jpg"/><br/><span>N6  璀璨金色  </span><p>1599.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/360pro5.jpg"/><br/><span>360手机 C5移动版</span><p>419.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/360pro6.jpg"/><br/><span>F4S 流光金 3GB 32GB</span><p>749.00</p> </a></dd>
+                                      </dl>
+                                  </div>
+                              </li>
+                              <li class="navitem">
+                                  <a><p>二手手机</p></a>
+                                  <div class="navlist">
+                                      <dl>
+                                          <dd><a href=""><img src="./img/star001.jpg"/><br/><span>360手机 N6 Pro</span><p>1899.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/star002.jpg"/><br/><span>N6 Lite璀璨金色</span><p>799.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/star003.jpg"/><br/><span>360手机 N5S 全网通 6GB</span><p>1499.00</p></a></dd>
+                                          <dd><a href=""><img src="./img/star004.jpg"/><br/><span>N6  璀璨金色  </span><p>1599.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/star005.jpg"/><br/><span>360手机 C5移动版</span><p>419.00</p> </a></dd>
+                                          <dd><a href=""><img src="./img/star006.jpg"/><br/><span>F4S 流光金 3GB 32GB</span><p>749.00</p> </a></dd>
+                                      </dl>
+                                  </div>
+                              </li>
+
+                              <li class="navitem">
+                                  <a>社区</a>
+                              </li>
+                              <li class="navitem">
+                                  <a>游戏权益中心</a>
+                              </li>
+                              <li style="clear: both"></li>
+                          </ul>
+                          <!--banner选项卡开始-->
+
+                          <!--banner选项卡结束-->
+                          <!--导航底部结束-->
+                      </div>
+                </div>
+                <!--导航结束-->
+    </div>
+     <div style="clear:both"></div>
+    <!--头部开始end-->
+
+    <div class="banner">
+             <!--轮播图开始;-->
+            <div class="lunbo">
+                 <div class="lunboimg">
+                     <img src="./img/lunbo1.jpg" alt="">
+                     <img src="./img/lunbo2.jpg" alt="">
+                     <img src="./img/lunbo3.jpg" alt="">
+                     <img src="./img/lunbo4.jpg" alt="">
+                     <img src="./img/lunbo5.jpg" alt="">
+                 </div>
+                 <div id="box-ul">
+                       <ul>
+                           <li class="li active">1</li>
+                           <li class="li">2</li>
+                           <li class="li">3</li>
+                           <li class="li">4</li>
+                           <li class="li">5</li>
+                       </ul>
+                 </div>
+                 <div class="redirect">
+                     <div id="left">&lt;</div>
+                     <div id="right">&gt;</div>
+                 </div>
+             </div>
+              <!--轮播图结束-->
+              <!--zuobian选项卡开始-->
+           <div class="lunbo-xuanxiangka">
+                 <div class="second-list">
+                     <a href=""><img src="./img/select1000.jpg"><p>手机/配件</p></a>
+                     <!--右边二级菜单开始-->
+                     <ul class="leftselect-rightpage samepage">
+                         <li class="samepage-title"><a href="">手机通讯</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/menu1000.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/menu1000.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/menu1000.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>360N5s</p></a>
+                         </li><br/>
+                         <li class="samepage-title"><a href="">手机配件</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/menu1002.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>手机膜</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>手机膜</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>手机膜</p></a>
+                         </li><br/>
+                         <li class="samepage-title"><a href="">二手手机</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/menu1004.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/menu1005.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/menu1005.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/menu1005.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/menu1006.jpg"><p>苹果</p></a>
+                             <a href=""><img src="./img/menu1006.jpg"><p>苹果</p></a>
+                             <a href=""><img src="./img/menu1006.jpg"><p>苹果</p></a>
+                         </li><br/>
+                     </ul>
+                     <!--右边二级菜单结束-->
+                 </div>
+                 <div class="second-list">
+                     <a href=""><img src="./img/select1001.jpg"><p>数码</p></a>
+                     <ul class="leftselect-rightpage samepage">
+                         <li class="samepage-title"><a href="">手机通讯</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/360pro1.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/360pro1.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/360pro1.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/360pro1.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/360pro1.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/360pro1.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/360pro1.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/360pro1.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/360pro1.jpg"><p>360N5s</p></a>
+                         </li><br/>
+                         <li class="samepage-title"><a href="">手机配件</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/360pro2.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/360pro2.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/360pro2.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/360pro2.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/360pro2.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/360pro2.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/360pro2.jpg"><p>手机膜</p></a>
+                             <a href=""><img src="./img/360pro2.jpg"><p>手机膜</p></a>
+                             <a href=""><img src="./img/360pro2.jpg"><p>手机膜</p></a>
+                         </li><br/>
+                         <li class="samepage-title"><a href="">二手手机</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/menu1004.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/menu1005.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/menu1005.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/menu1005.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/menu1006.jpg"><p>苹果</p></a>
+                             <a href=""><img src="./img/menu1006.jpg"><p>苹果</p></a>
+                             <a href=""><img src="./img/menu1006.jpg"><p>苹果</p></a>
+                         </li><br/>
+                     </ul>
+                 </div>
+                 <div class="second-list">
+                     <a href=""><img src="./img/select1002.jpg"><p>电脑周边</p></a>
+                     <ul class="leftselect-rightpage samepage">
+                         <li class="samepage-title"><a href="">手机通讯</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/menu1000.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/menu1000.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/menu1000.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>360N5s</p></a>
+                         </li><br/>
+                         <li class="samepage-title"><a href="">手机配件</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/menu1002.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>手机膜</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>手机膜</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>手机膜</p></a>
+                         </li><br/>
+                         <li class="samepage-title"><a href="">二手手机</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/menu1004.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/menu1005.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/menu1005.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/menu1005.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/menu1006.jpg"><p>苹果</p></a>
+                             <a href=""><img src="./img/menu1006.jpg"><p>苹果</p></a>
+                             <a href=""><img src="./img/menu1006.jpg"><p>苹果</p></a>
+                         </li><br/>
+                     </ul>
+                 </div>
+                 <div class="second-list">
+                     <a href=""><img src="./img/select1003.jpg"><p>移动存储</p></a>
+                     <ul class="leftselect-rightpage samepage">
+                         <li class="samepage-title"><a href="">手机通讯</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/360pro5.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/360pro5.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/360pro5.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/360pro5.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/360pro5.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/360pro5.jpg"><p>360N5s</p></a>
+                         </li><br/>
+                         <li class="samepage-title"><a href="">手机配件</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/360pro6.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/360pro6.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/360pro6.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>手机膜</p></a>
+                             <a href=""><img src="./img/360pro6.jpg"><p>手机膜</p></a>
+                             <a href=""><img src="./img/360pro6.jpg"><p>手机膜</p></a>
+                         </li><br/>
+                         <li class="samepage-title"><a href="">二手手机</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/menu1004.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/menu1005.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/menu1005.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/menu1005.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/menu1006.jpg"><p>苹果</p></a>
+                             <a href=""><img src="./img/menu1006.jpg"><p>苹果</p></a>
+                             <a href=""><img src="./img/menu1006.jpg"><p>苹果</p></a>
+                         </li><br/>
+                     </ul>
+                 </div>
+                 <div class="second-list">
+                     <a href=""><img src="./img/select1004.jpg"><p>汽车用品</p></a>
+                     <ul class="leftselect-rightpage samepage">
+                         <li class="samepage-title"><a href="">手机通讯</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/star006.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/menu1000.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/menu1000.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/star006.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/star006.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/star006.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/star006.jpg"><p>360N5s</p></a>
+                         </li><br/>
+                         <li class="samepage-title"><a href="">手机配件</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/menu1002.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/star006.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>手机膜</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>手机膜</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>手机膜</p></a>
+                         </li><br/>
+                         <li class="samepage-title"><a href="">二手手机</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/menu1004.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/menu1005.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/menu1005.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/menu1005.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/menu1006.jpg"><p>苹果</p></a>
+                             <a href=""><img src="./img/menu1006.jpg"><p>苹果</p></a>
+                             <a href=""><img src="./img/menu1006.jpg"><p>苹果</p></a>
+                         </li><br/>
+                     </ul>
+                 </div>
+                 <div class="second-list">
+                     <a href=""><img src="./img/select1005.jpg"><p>家用电器</p></a>
+                     <ul class="leftselect-rightpage samepage">
+                         <li class="samepage-title"><a href="">手机通讯</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/menu1000.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/menu1000.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/menu1000.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/com1004.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/com1004.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/com1004.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>360N5s</p></a>
+                         </li><br/>
+                         <li class="samepage-title"><a href="">手机配件</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/com1004.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/com1004.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/com1004.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/com1004.jpg"><p>手机膜</p></a>
+                             <a href=""><img src="./img/com1004.jpg"><p>手机膜</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>手机膜</p></a>
+                         </li><br/>
+                         <li class="samepage-title"><a href="">二手手机</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/com1004.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/com1004.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/menu1005.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/com1004.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/menu1005.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/com1004.jpg"><p>苹果</p></a>
+                             <a href=""><img src="./img/menu1006.jpg"><p>苹果</p></a>
+                             <a href=""><img src="./img/com1004.jpg"><p>苹果</p></a>
+                         </li><br/>
+                     </ul>
+                 </div>
+                 <div class="second-list">
+                     <a href=""><img src="./img/select1006.jpg"><p>户外/运动</p></a>
+                     <ul class="leftselect-rightpage samepage">
+                         <li class="samepage-title"><a href="">手机通讯</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/menu1000.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/com1001.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/menu1000.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/com1001.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/com1001.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/com1001.jpg"><p>360N5s</p></a>
+                         </li><br/>
+                         <li class="samepage-title"><a href="">手机配件</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/menu1002.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/com1002.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/com1002.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>手机膜</p></a>
+                             <a href=""><img src="./img/com1002.jpg"><p>手机膜</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>手机膜</p></a>
+                         </li><br/>
+                         <li class="samepage-title"><a href="">二手手机</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/menu1004.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/menu1005.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/com1002.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/menu1005.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/com1002.jpg"><p>苹果</p></a>
+                             <a href=""><img src="./img/menu1006.jpg"><p>苹果</p></a>
+                             <a href=""><img src="./img/com1002.jpg"><p>苹果</p></a>
+                         </li><br/>
+                     </ul>
+                 </div>
+                 <div class="second-list">
+                     <a href=""><img src="./img/select1007.jpg"><p>教育/文具</p></a>
+                     <ul class="leftselect-rightpage samepage">
+                         <li class="samepage-title"><a href="">手机通讯</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/menu1000.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/com1001.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/menu1000.jpg"><p>360N6Lite</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/com1001.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/com1001.jpg"><p>360N5s</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>360N5s</p></a>
+                         </li><br/>
+                         <li class="samepage-title"><a href="">手机配件</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/menu1002.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/com1001.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/menu1002.jpg"><p>手机壳</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/com1001.jpg"><p>移动电源</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>手机膜</p></a>
+                             <a href=""><img src="./img/com1001.jpg"><p>手机膜</p></a>
+                             <a href=""><img src="./img/menu1003.jpg"><p>手机膜</p></a>
+                         </li><br/>
+                         <li class="samepage-title"><a href="">二手手机</a></li><br/>
+                         <li class="samepage-img">
+                             <a href=""><img src="./img/menu1004.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/com1002.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/menu1004.jpg"><p>小米</p></a>
+                             <a href=""><img src="./img/com1002.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/menu1005.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/com1004.jpg"><p>samsung</p></a>
+                             <a href=""><img src="./img/menu1006.jpg"><p>苹果</p></a>
+                             <a href=""><img src="./img/menu1006.jpg"><p>苹果</p></a>
+                             <a href=""><img src="./img/com1002.jpg"><p>苹果</p></a>
+                         </li><br/>
+                     </ul>
+                 </div>
+             </div>
+
+             <!--zuobian选项卡结束-->
+             <!--右边商城头条开始-->
+             <div class="mallnews">
+                 <h3>商城头条</h3>
+                 <ol class="mallnews-ol">
+                     <Li><a href="">孩子的随身安全卫士>></a></Li>
+                     <Li><a href="">新年嗨购，全面好礼>></a></Li>
+                     <Li><a href="">周二抢购日震撼来袭→</a></Li>
+                     <Li class="mallnews-ol-div">
+                         <div><a href=""><img src="./img/news001.png"/><p>手机</p></a></div>
+                         <div><a href=""><img src="./img/news002.png"/><p>智能</p></a></div>
+                         <div><a href=""><img src="./img/news003.png"/><p>汽车</p></a></div>
+                     </Li>
+                 </ol>
+             </div>
+             <!--右边商城头条结束-->
+             <!--右边广告开始-->
+             <div class="camare">
+                <img src="./img/360ad01.jpg">
+             </div>
+             <!--右边广告结束-->
+    </div>
+         <!--秒杀开始-->
+    <div class="miaosha" >
+        <div class="miaosha-left">
+              <div class="miaosha-left-box">
+                    <div>当前场次剩余时间</div>
+                  <ul class="miaosha-left-box-ul">
+                      <li id="hour" class="intervalxx"></li>
+                      <li class="miaosha-left-box-li">:</li>
+                      <li id="minute" class="intervalxx"></li>
+                      <li class="miaosha-left-box-li">:</li>
+                      <li id="second" class="intervalxx"></li>
+                  </ul>
+              </div>
+        </div>
+        <ul class="miaosha-right">
+            <li><a href=""><img src="./img/star007.jpg"/><br/><span> 360行车记录仪智能后视镜导航云镜 </span><p>1699.00</p> </a></li>
+            <li><a href=""><img src="./img/star008.jpg"/><br/><span>360儿童手表SE 2 Plus 彩色触屏版 </span><p>799.00</p> </a></li>
+            <li><a href=""><img src="./img/star009.jpg"/><br/><span>360智能摄像机 看店宝 D688 </span><p>1499.00</p></a></li>
+            <li><a href=""><img src="./img/star010.jpg"/><br/><span>咚咚 智能语音车载MP3蓝牙播放器免提电话</span><p>1599.00</p> </a></li>
+            <li><a href=""><img src="./img/star011.jpg"/><br/><span>360 胎压监测仪 快捷防盗安装</span><p>419.00</p> </a></li>
+        </ul>
+
+    </div>
+        <!--秒杀结束-->
+        <!--明星单品开始-->
+        <div class="stargoodname like" id="index_1"><a class="taoba" href="javascript:void(0)" title="1"></a>
+               <h2>明星单品</h2>
+        </div>
+        <div class="stargood-box" >
+            <div class="stargood">
+                <ul>
+                    <li><a href=""><img src="./img/star001.jpg"/><br/><span> 360手机 N6 Pro 全网通 6GB+64GB 深海蓝</span><p>1699.00</p> </a></li>
+                    <li><a href=""><img src="./img/star002.jpg"/><br/><span>【新年货】360手机 N6 全网通 6GB+64GB 璀璨金</span><p>799.00</p> </a></li>
+                    <li><a href=""><img src="./img/star003.jpg"/><br/><span>360行车记录仪标准升级版</span><p>1499.00</p></a></li>
+                    <li><a href=""><img src="./img/star004.jpg"/><br/><span>360亲情手表 老人礼品礼物</span><p>1599.00</p> </a></li>
+                    <li><a href=""><img src="./img/star005.jpg"/><br/><span>360智能摄像机悬浮版 白色</span><p>419.00</p> </a></li>
+                    <li><a href=""><img src="./img/star006.jpg"/><br/><span>360手机 N6 全网通 4GB+64GB</span><p>749.00</p> </a></li>
+                    <li><a href=""><img src="./img/star007.jpg"/><br/><span> 360行车记录仪智能后视镜导航云镜 S650 前后双录高清夜视倒车影像 语音操控导航测速 黑色</span><p>1699.00</p> </a></li>
+                    <li><a href=""><img src="./img/star008.jpg"/><br/><span>360儿童手表SE 2 Plus 彩色触屏版 防丢防水GPS定位 W605 智能问答手表 珊瑚粉</span><p>799.00</p> </a></li>
+                    <li><a href=""><img src="./img/star009.jpg"/><br/><span>360智能摄像机 看店宝 D688 高清红外夜视 wifi网络摄像机 全景远程监控 </span><p>1499.00</p></a></li>
+                    <li><a href=""><img src="./img/star010.jpg"/><br/><span>咚咚 智能语音车载MP3蓝牙播放器免提电话 FM发射器接收器 点烟器式USB车载充电器 科技黑檀</span><p>1599.00</p> </a></li>
+                    <li><a href=""><img src="./img/star011.jpg"/><br/><span>360 胎压监测仪 快捷防盗安装</span><p>419.00</p> </a></li>
+                </ul>
+            </div>
+            <div>
+                <div id="starleft">&lt;</div>
+                <div id="starright">&gt;</div>
+            </div>
+        </div>
+        <!--明星单品结束-->
+        <!--手机/配件开始-->
+        <div class="like" id="index_2"><a class="taoba" href="javascript:void(0)" title="2"></a>
+            <h2>手机/配件</h2>
+        </div>
+        <div class="phone-box">
+            <div class="phone-left">
+                <div class="phone-left-up">
+                    <a href=""><img src="./img/phone0001.jpg"/></a>
+                </div>
+                <div class="phone-left-down map">
+                    <a href=""><img src="./img/phone0002.jpg"/></a>
+                </div>
+            </div>
+            <div class="phone-right">
+                <ul>
+                    <li><a href=""><div><img src="./img/phone1008.jpg"/></div><br/><span>360手机N6 Pro 深海蓝</span><p>749.00</p> </a></li>
+                    <li><a href=""><div><img src="./img/phone1001.jpg"/></div><br/><span>360手机 N6 燧石黑色 </span><p>1699.00</p> </a></li>
+                    <li><a href=""><div><img src="./img/phone1002.jpg"/></div><br/><span>C5 2GB+16GB 曜石黑色 </span><p>799.00</p> </a></li>
+                    <li><a href=""><div><img src="./img/phone1003.jpg"/></div><br/><span>360手机 F5移动低配版 2+16GB</span><p>1499.00</p></a></li>
+                    <li><a href=""><div><img src="./img/phone1004.jpg"/></div><br/><span>F4S 移动定制版 3GB 32GB</span><p>1599.00</p> </a></li>
+                    <li><a href=""><div><img src="./img/phone1005.jpg"/></div><br/><span>360手机 vizza原装保护壳 黑色</span><p>1599.00</p> </a></li>
+                    <li><a href=""><div><img src="./img/phone1006.jpg"/></div><br/><span>360 DM2018/有线 入耳式耳机</span><p>419.00</p> </a></li>
+                    <li><a href=""><div><img src="./img/phone1007.jpg"/></div><br/><span> 360手机 N5S 保护壳 黑色</span><p>419.00</p> </a></li>
+                </ul>
+            </div>
+        </div>
+        <!--手机/配件结束-->
+        <!--智能数码开始-->
+        <div class="like" id="index_3"><a class="taoba" href="javascript:void(0)" title="3"></a>
+            <h2>智能数码</h2>
+        </div>
+        <div class="phone-box">
+            <div class="phone-left">
+                <div class="phone-left-up">
+                    <a href=""><img src="./img/dig1000.jpg"/></a>
+                </div>
+                <div class="phone-left-down">
+                    <a href=""><img src="./img/dig1001.jpg"/></a>
+                </div>
+            </div>
+            <div class="phone-right">
+                <ul>
+                    <li><a href=""><img src="./img/dig1002.jpg"/><br/><span>360智能摄像机1080P版 小水滴 </span><p>449.00</p> </a></li>
+                    <li><a href=""><img src="./img/dig1003.jpg"/><br/><span>360智能摄像机防水版  D621</span><p>699.00</p> </a></li>
+                    <li><a href=""><img src="./img/dig1004.jpg"/><br/><span>360智能摄像机 看店宝 高清红外夜视</span><p>799.00</p> </a></li>
+                    <li><a href=""><img src="./img/dig1005.jpg"/><br/><span>咚咚 智能语音车载摄像头</span><p>499.00</p></a></li>
+                    <li><a href=""><img src="./img/dig1006.jpg"/><br/><span>360智能摄像机悬浮1080P版</span><p>599.00</p> </a></li>
+                    <li><a href=""><img src="./img/dig1007.jpg"/><br/><span>360儿童手表SE 2 Plus</span><p>559.00</p> </a></li>
+                    <li><a href=""><img src="./img/dig1008.jpg"/><br/><span>360儿童手表6W防水版</span><p>419.00</p> </a></li>
+                    <li><a href=""><img src="./img/dig1009.jpg"/><br/><span>咚咚 智能语音车载MP3</span><p>419.00</p> </a></li>
+                </ul>
+            </div>
+        </div>
+        <!--智能数码结束-->
+        <!--汽车开始-->
+        <div class="like" id="index_4"><a class="taoba" href="javascript:void(0)" title="4"></a>
+            <h2>汽车用品</h2>
+        </div>
+        <div class="phone-box">
+            <div class="phone-left">
+                <div class="phone-left-up">
+                    <a href=""><img src="./img/car1000.jpg"/></a>
+                </div>
+                <div class="phone-left-down">
+                    <a href=""><img src="./img/car1001.jpg"/></a>
+                </div>
+            </div>
+            <div class="phone-right">
+                <ul>
+                    <li><a href=""><img src="./img/car1002.jpg"/><br/><span>360行车记录仪二代 美猴王领航版</span><p>1449.00</p> </a></li>
+                    <li><a href=""><img src="./img/car1003.jpg"/><br/><span>360行车记录仪二代 美猴王版 </span><p>1299.00</p> </a></li>
+                    <li><a href=""><img src="./img/car1004.jpg"/><br/><span>360行车记录仪导航云镜 S650</span><p>799.00</p> </a></li>
+                    <li><a href=""><img src="./img/car1005.jpg"/><br/><span>360行车记录仪后视镜版</span><p>699.00</p></a></li>
+                    <li><a href=""><img src="./img/car1006.jpg"/><br/><span>360行车记录仪 G300 迷你隐藏</span><p>599.00</p> </a></li>
+                    <li><a href=""><img src="./img/car1007.jpg"/><br/><span>360 胎压监测仪  太阳能无线外置</span><p>899.00</p> </a></li>
+                    <li><a href=""><img src="./img/car1008.jpg"/><br/><span>吉吉 汽车头枕护颈枕</span><p>419.00</p> </a></li>
+                    <li><a href=""><img src="./img/car1009.jpg"/><br/><span>先科（SAST） 车载充电器 车充点烟器</span><p>599.00</p> </a></li>
+                </ul>
+            </div>
+        </div>
+        <!--汽车结束-->
+        <!--家用电器开始-->
+        <div class="like" id="index_5"><a class="taoba" href="javascript:void(0)" title="5"></a>
+            <h2>家用电器</h2>
+        </div>
+        <div class="phone-box">
+            <div class="phone-left">
+                <div class="phone-left-up">
+                    <a href=""><img src="./img/ele1000.jpg"/></a>
+                </div>
+                <div class="phone-left-down">
+                    <a href=""><img src="./img/ele1001.jpg"/></a>
+                </div>
+            </div>
+            <div class="phone-right">
+                <ul>
+                    <li><a href=""><img src="./img/ele1002.jpg"/><br/><span>飞科电吹风机家用FH6218大功率</span><p>449.00</p> </a></li>
+                    <li><a href=""><img src="./img/ele1003.jpg"/><br/><span>美的 1.5L 单杆 蒸汽挂烫机</span><p>899.00</p> </a></li>
+                    <li><a href=""><img src="./img/ele1004.jpg"/><br/><span>九阳 电水壶一体全钢电热水壶温控器</span><p>799.00</p> </a></li>
+                    <li><a href=""><img src="./img/ele1005.jpg"/><br/><span>美的 不锈钢电水壶 1.7L容量</span><p>299.00</p></a></li>
+                    <li><a href=""><img src="./img/ele1006.jpg"/><br/><span>美的  多功能双杯料理机榨汁机</span><p>599.00</p> </a></li>
+                    <li><a href=""><img src="./img/ele1007.jpg"/><br/><span>小狗 小型手持床铺除螨机</span><p>999.00</p> </a></li>
+                    <li><a href=""><img src="./img/ele1008.jpg"/><br/><span>德尔玛 加湿器 5L大容量</span><p>859.00</p> </a></li>
+                    <li><a href=""><img src="./img/ele1009.jpg"/><br/><span>苏泊尔（SUPOR）榨汁机家用果汁机</span><p>459.00</p> </a></li>
+                </ul>
+            </div>
+        </div>
+        <!--家用电器结束-->
+        <!--运动/户外开始-->
+        <div class="like" id="index_6"><a class="taoba" href="javascript:void(0)" title="6"></a>
+            <h2>运动/户外</h2>
+        </div>
+        <div class="phone-box">
+            <div class="phone-left">
+                <div class="phone-left-up">
+                    <a href=""><img src="./img/spo1000.jpg"/></a>
+                </div>
+                <div class="phone-left-down">
+                    <a href=""><img src="./img/spo1001.jpg"/></a>
+                </div>
+            </div>
+            <div class="phone-right">
+                <ul>
+                    <li><a href=""><img src="./img/spo1002.jpg"/><br/><span>尚烤佳户外烧烤架</span><p>449.00</p> </a></li>
+                    <li><a href=""><img src="./img/spo1003.jpg"/><br/><span> 双鱼7A乒乓球拍横拍 双面反胶进攻型</span><p>899.00</p> </a></li>
+                    <li><a href=""><img src="./img/spo1004.jpg"/><br/><span>烧烤世家 户外便携木炭烤炉</span><p>799.00</p> </a></li>
+                    <li><a href=""><img src="./img/spo1005.jpg"/><br/><span>悠乐朋（Ulecamp）吊床</span><p>299.00</p></a></li>
+                    <li><a href=""><img src="./img/spo1006.jpg"/><br/><span>牧高笛 防潮野餐垫自动充气野炊地垫</span><p>599.00</p> </a></li>
+                    <li><a href=""><img src="./img/spo1007.jpg"/><br/><span>德国天文望远镜 5高清成像</span><p>999.00</p> </a></li>
+                    <li><a href=""><img src="./img/spo1008.jpg"/><br/><span>李宁 LI-NING 高弹性 佩戴舒适</span><p>859.00</p> </a></li>
+                    <li><a href=""><img src="./img/spo1009.jpg"/><br/><span>红双喜DHS足球5号球</span><p>459.00</p> </a></li>
+                </ul>
+            </div>
+        </div>
+        <!--运动/户外结束-->
+        <!--电脑周边开始-->
+        <div class="like" id="index_7"><a class="taoba" href="javascript:void(0)" title="7"></a>
+            <h2>电脑周边</h2>
+        </div>
+        <div class="phone-box">
+            <div class="phone-left">
+                <div class="phone-left-up">
+                    <a href=""><img src="./img/com1000.jpg"/></a>
+                </div>
+                <div class="phone-left-down">
+                    <a href=""><img src="./img/com1001.jpg"/></a>
+                </div>
+            </div>
+            <div class="phone-right">
+                <ul>
+                    <li><a href=""><img src="./img/com1002.jpg"/><br/><span>狼蛛鬼鲛二代 七彩游戏鼠标</span><p>449.00</p> </a></li>
+                    <li><a href=""><img src="./img/com1002.jpg"/><br/><span> 罗技 无线游戏耳机麦克风 吃鸡耳机</span><p>899.00</p> </a></li>
+                    <li><a href=""><img src="./img/com1002.jpg"/><br/><span>小鸡 G4增强版 蓝牙无线游戏手柄</span><p>799.00</p> </a></li>
+                    <li><a href=""><img src="./img/com1002.jpg"/><br/><span>雷蛇V2 入耳式耳机 电竞耳机</span><p>299.00</p></a></li>
+                    <li><a href=""><img src="./img/com1004.jpg"/><br/><span> 狼蛛（AULA）暴风斩套装混光 </span><p>599.00</p> </a></li>
+                    <li><a href=""><img src="./img/com1004.jpg"/><br/><span>Apple iPad 平板电脑</span><p>999.00</p> </a></li>
+                    <li><a href=""><img src="./img/com1004.jpg"/><br/><span>樱桃（Cherry）游戏办公机械键盘/span><p>859.00</p> </a></li>
+                    <li><a href=""><img src="./img/com1004.jpg"/><br/><span>罗技G502 炫光自适应游戏鼠标</span><p>459.00</p> </a></li>
+                </ul>
+            </div>
+        </div>
+        <!--电脑周边结束-->
+        <!--更多推荐开始-->
+        <div class="like" id="index_8"><a class="taoba" href="javascript:void(0)" title="8"></a>
+            <h2>更多推荐</h2>
+        </div>
+        <div class="phone-box">
+            <div class="phone-left">
+                <div class="phone-left-up">
+                    <a href=""><img src="./img/more1000.jpg"/></a>
+                </div>
+                <div class="phone-left-down">
+                    <a href=""><img src="./img/more1001.jpg"/></a>
+                </div>
+            </div>
+            <div class="phone-right">
+                <ul>
+                    <li><a href=""><img src="./img/more1002.jpg"/><br/><span>得力 S01红色0.5mm按动中性笔</span><p>449.00</p> </a></li>
+                    <li><a href=""><img src="./img/more1002.jpg"/><br/><span> 得力 S01红色0.5mm按动中性笔</span><p>899.00</p> </a></li>
+                    <li><a href=""><img src="./img/more1002.jpg"/><br/><span>得力 S01红色0.5mm按动中性笔</span><p>799.00</p> </a></li>
+                    <li><a href=""><img src="./img/more1002.jpg"/><br/><span>得力 S01红色0.5mm按动中性笔</span><p>299.00</p></a></li>
+                    <li><a href=""><img src="./img/more1003.jpg"/><br/><span> 朗客 iPhone 8 高清玻璃膜 </span><p>599.00</p> </a></li>
+                    <li><a href=""><img src="./img/more1003.jpg"/><br/><span>朗客 iPhone 8 高清玻璃膜</span><p>999.00</p> </a></li>
+                    <li><a href=""><img src="./img/more1003.jpg"/><br/><span>朗客 iPhone 8 高清玻璃膜</span><p>859.00</p> </a></li>
+                    <li><a href=""><img src="./img/more1003.jpg"/><br/><span>朗客 iPhone 8 高清玻璃膜</span><p>459.00</p> </a></li>
+                </ul>
+            </div>
+        </div>
+        <!--更多推荐结束-->
+        <!--底部开始-->
+        <div id="bottom">
+            <div id="bottom_top">
+                <div id="big_box">
+                    <div class="box" id="bottom_top_left">
+                        <div class="small1"><img src="img/7tian.png"></div>
+                        <div class="small2">7天无理由退货</div>
+                    </div>
+                    <div class="box" id="bottom_top_banner">
+                        <div class="small3"><img src="img/15tian.png"></div>
+                        <div class="small4">质量问题15天换货</div>
+                    </div>
+                    <div class="box" id="bottom_top_right">
+                        <div class="small5"><img src="img/bao.png"></div>
+                        <div class="small6">满99包邮</div>
+                    </div>
+                </div>
+            </div>
+            <div id="bottom_banner">
+                <div id="box1" class="identical_box">
+                    <ul>
+                        <li style="font-weight: bold;font-size: 16px">帮助中心</li>
+                        <li><a href="">用户登录与密码找回</a></li>
+                        <li><a href="">用户注册协议</a></li>
+                        <li><a href="">购买指南</a></li>
+                        <li><a href="">支付方式</a></li>
+                        <li><a href="">配送与说明</a></li>
+                    </ul>
+                </div>
+                <div id="box2" class="identical_box">
+                    <ul>
+                        <li style="font-weight: bold;font-size: 16px">售后服务</li>
+                        <li><a href="">7日无理由退货</a></li>
+                        <li><a href="">质量问题15天换货</a></li>
+                        <li><a href="">保修条款</a></li>
+                        <li><a href="">售后服务运费规则</a></li>
+                    </ul>
+                </div>
+                <div id="box3" class="identical_box">
+                    <ul>
+                        <li style="font-weight: bold;font-size: 16px">联系我们</li>
+                        <li style="font-size: 15px;color: #4ABA1F">400-6822-360</li>
+                        <li><a href="">周一至周日 9:00-18:00</a></li>
+                        <li style="font-size: 15px;color: #4ABA1F">400-0111-366（手机类产品）</li>
+                        <li><a href="">周一至周日 8:00-22:00</a></li>
+                        <li><a href="">（仅收市话费） </a></li>
+                    </ul>
+                </div>
+                <div id="box4" class="identical_box">
+                    <div class="wx"><img src="img/weixin_icon.png"></div>
+                    <div class="wxm"><img src="img/wxewm.png"></div>
+                    <div class="wb"><img src="img/weibo_icon.png"></div>
+                    <div class="wbm"><img src="img/wbewm.jpg"></div>
+                </div>
+            </div>
+            <div id="bottom_bottom">
+                <ul>
+                    <li>360商城©2013-2017 360公司版权所有 京ICP备17017089号 京公网安备11000002000006号</li>
+                </ul>
+            </div>
+        </div>
+        <!--底部结束-->
+</body>
+<script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="./js/j.js"></script>
+<script type="text/javascript"  src="./lib/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/360.js" ></script>
+<script type="text/javascript" src="./js/360xxx.js"></script>
+</html>
